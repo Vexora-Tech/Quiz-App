@@ -1,99 +1,80 @@
-{
-  "quizTitle": "Basic Web Knowledge",
-  "timeLimitSeconds": 600,
-  "questions": [
+[
     {
       "id": 1,
       "type": "multiple-choice",
-      "questionHtml": "<p>What does <strong>HTML</strong> stand for?</p>",
+      "questionHtml": "What does HTML stand for?",
       "options": [
-        "<span>Hyper Text Markup Language</span>",
-        "<span>Home Tool Markup Language</span>",
-        "<span>Hyperlinks and Text Mark Language</span>",
-        "<span>High Tech Modern Language</span>"
+        "Hyper Text Markup Language",
+        "Home Tool Markup Language",
+        "Hyperlinks and Text Mark Language",
+        "High Tech Modern Language"
       ],
       "correctIndex": 0
     },
     {
       "id": 2,
       "type": "multiple-choice",
-      "questionHtml": "<p>Which tag is used to create a link?</p>",
+      "questionHtml": "Which tag is used to create a link?",
       "options": [
-        "<code>&lt;a&gt;</code>",
-        "<code>&lt;link&gt;</code>",
-        "<code>&lt;href&gt;</code>",
-        "<code>&lt;url&gt;</code>"
+        "<a>",
+        "<link>",
+        "<href>",
+        "<url>"
       ],
       "correctIndex": 0
     },
     {
       "id": 3,
-      "type": "true-false",
-      "questionHtml": "<p>The <code>&lt;img&gt;</code> tag requires a closing tag.</p>",
-      "options": ["True", "False"],
-      "correctIndex": 1
+      "type": "multiple-choice",
+      "questionHtml": "Which CSS property changes text color?",
+      "options": [
+        "color",
+        "font-style",
+        "background",
+        "text-decoration"
+      ],
+      "correctIndex": 0
     },
-
     {
       "id": 4,
       "type": "multiple-choice",
-      "questionHtml": "<p>Which CSS property changes text color?</p>",
+      "questionHtml": "Which CSS unit is relative to the root font size?",
       "options": [
-        "<code>color</code>",
-        "<code>font-style</code>",
-        "<code>background</code>",
-        "<code>text-decoration</code>"
+        "rem",
+        "px",
+        "%",
+        "vh"
       ],
       "correctIndex": 0
     },
     {
       "id": 5,
       "type": "multiple-choice",
-      "questionHtml": "<p>Which CSS unit is relative to the root font size?</p>",
+      "questionHtml": "Which property controls spacing inside an element?",
       "options": [
-        "<code>rem</code>",
-        "<code>px</code>",
-        "<code>%</code>",
-        "<code>vh</code>"
+        "padding",
+        "margin",
+        "border",
+        "gap"
       ],
       "correctIndex": 0
     },
     {
       "id": 6,
-      "type": "true-false",
-      "questionHtml": "<p>CSS stands for Cascading Style Sheets.</p>",
-      "options": ["True", "False"],
-      "correctIndex": 0
-    },
-    {
-      "id": 7,
       "type": "multiple-choice",
-      "questionHtml": "<p>Which property controls spacing inside an element?</p>",
+      "questionHtml": "Which keyword declares a variable in modern JavaScript?",
       "options": [
-        "<code>padding</code>",
-        "<code>margin</code>",
-        "<code>border</code>",
-        "<code>gap</code>"
-      ],
-      "correctIndex": 0
-    },
-
-    {
-      "id": 8,
-      "type": "multiple-choice",
-      "questionHtml": "<p>Which keyword declares a variable in modern JavaScript?</p>",
-      "options": [
-        "<code>let</code>",
-        "<code>var</code>",
-        "<code>const</code>",
-        "<code>Both let and const</code>"
+        "let",
+        "var",
+        "const",
+        "Both let and const"
       ],
       "correctIndex": 3
     },
     {
-      "id": 9,
+      "id": 7,
       "type": "multiple-choice",
-      "questionHtml": "<p>What does <code>document.querySelector()</code> return?</p>",
+      "questionHtml": "What does document.querySelector() return?",
       "options": [
         "All matching elements",
         "The first matching element",
@@ -103,36 +84,39 @@
       "correctIndex": 1
     },
     {
-      "id": 10,
-      "type": "true-false",
-      "questionHtml": "<p>JavaScript can manipulate HTML and CSS.</p>",
-      "options": ["True", "False"],
-      "correctIndex": 0
-    },
-    {
-      "id": 11,
+      "id": 8,
       "type": "multiple-choice",
-      "questionHtml": "<p>Which symbol is used for single-line comments in JavaScript?</p>",
+      "questionHtml": "Which symbol is used for single-line comments in JavaScript?",
       "options": [
-        "<code>//</code>",
-        "<code>/* */</code>",
-        "<code>#</code>",
-        "<code>--</code>"
+        "//",
+        "/* */",
+        "#",
+        "--"
       ],
       "correctIndex": 0
     },
     {
-      "id": 12,
+      "id": 9,
       "type": "multiple-choice",
-      "questionHtml": "<p>Which method converts JSON string into a JavaScript object?</p>",
+      "questionHtml": "Which method converts JSON string into a JavaScript object?",
       "options": [
-        "<code>JSON.parse()</code>",
-        "<code>JSON.stringify()</code>",
-        "<code>JSON.object()</code>",
-        "<code>JSON.convert()</code>"
+        "JSON.parse()",
+        "JSON.stringify()",
+        "JSON.object()",
+        "JSON.convert()"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 10,
+      "type": "multiple-choice",
+      "questionHtml": "Which HTML attribute is used to define inline styles?",
+      "options": [
+        "style",
+        "class",
+        "css",
+        "styles"
       ],
       "correctIndex": 0
     }
   ]
-}
-
